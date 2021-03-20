@@ -1,6 +1,6 @@
 services:
   web:
     build: .
-    image: ghcr.io/adisus-plasma/static-web:dev
+    image: ghcr.io/adisus2-plasma/static-web:dev
     ports: 
       - "8080:80"
