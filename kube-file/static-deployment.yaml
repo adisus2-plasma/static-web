@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: static-web
-  namespace: student72-static-dev-web
+  namespace: student72-static-web-dev
   labels:
     app: static-web
 spec:

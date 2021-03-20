@@ -5,7 +5,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /$2
   name: static-web
-  namespace: student72-static-dev-web
+  namespace: student72-static-web-dev
 spec:
   rules:
   - host: dev.opsta.net
